@@ -1,18 +1,20 @@
 /* .........media query.......... */
 
-@media (min-width:720px){
-    
+@media (min-width:720px) {
+
     /* .......estilo header....... */
 
     header {
         position: fixed;
         width: 100%;
     }
-    header .contenedor-logo{
+
+    header .contenedor-logo {
         flex-direction: row;
         justify-content: space-between;
     }
-    header nav{
+
+    header nav {
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px;
@@ -20,16 +22,16 @@
 
     /* ......estilo seccion nosotros...... */
 
-    #nosotros .contenedor{
+    #nosotros .contenedor {
         display: flex;
         justify-content: space-evenly;
     }
 
-    #nosotros ul{
+    #nosotros ul {
         margin-left: 20px;
     }
 
-    #nosotros .texto{
+    #nosotros .texto {
         width: 50%;
         max-width: 600px;
         text-align: left;
@@ -39,100 +41,96 @@
         flex-direction: column;
     }
 
-    #img-contenedor{
+    #img-contenedor {
         background-image: url(/images/rh.jpeg);
         background-size: 500px 400px;
         background-position: calc(100vw - 550px) 80px;
         background-repeat: no-repeat;
     }
 
-    #nosotros h2{
+    #nosotros h2 {
         margin-top: 0px;
     }
 
-/* ........estilo seccion servicios...... */
+    /* ........estilo seccion servicios...... */
 
-#servicios .services{
-    display: flex;
-    justify-content: center;
-}
+    #servicios .services {
+        display: flex;
+        justify-content: center;
+    }
 
-#servicios p{
-    display: block;
-    margin-bottom: 30px;
-   
-}
+    #servicios p {
+        display: block;
+        margin-bottom: 30px;
 
-#servicios h3{
-    margin-top: 0px;
-}
+    }
 
-#servicios .secciones{
-    padding: 15px;
-   
-}
+    #servicios h3 {
+        margin-top: 0px;
+    }
 
-/* .......estilo seccion blog...... */
+    #servicios .secciones {
+        padding: 15px;
 
-#blog{
+    }
 
-    background-image: linear-gradient(
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),
-    url(/images/blogg.jpeg);
-    background-size: 500px 400px;
-    background-position: calc(100vw - 700px) 150px;
-    color: black;
+    /* .......estilo seccion blog...... */
 
-}
+    #blog {
 
-#blog h2{
-    color: aliceblue;
-}
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)),
+            url(/images/blogg.jpeg);
+        background-size: 500px 400px;
+        background-position: calc(100vw - 700px) 150px;
+        color: black;
 
-#blog p{
-    color: rgb(216, 162, 134);
-    font-size: 2em;
-}
+    }
 
-#blog a{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: azure;
-    
-}
+    #blog h2 {
+        color: aliceblue;
+    }
 
-#blog .contenedor{
-    display: flex;
-    justify-content: center;
-}
+    #blog p {
+        color: rgb(216, 162, 134);
+        font-size: 2em;
+    }
 
-/* .......estilo seccion contacto........ */
+    #blog a {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: azure;
 
-#contacto{
-    background-image: linear-gradient(
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),
-    url(/images/redes.png);
-    background-size: cover;
-}
+    }
 
-#contacto h2{
-    font-size: 3em;
-}
+    #blog .contenedor {
+        display: flex;
+        justify-content: center;
+    }
 
-#contacto .contenedor-pie{
-    font-size: 1em;
-}
+    /* .......estilo seccion contacto........ */
 
-/* ......estilo footer .......*/
+    #contacto {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)),
+            url(/images/redes.png);
+        background-size: cover;
+    }
 
-#footer .contenedor{
-    display: flex;
-    justify-content: center;
-}
+    #contacto h2 {
+        font-size: 3em;
+    }
+
+    #contacto .contenedor-pie {
+        font-size: 1em;
+    }
+
+    /* ......estilo footer .......*/
+
+    #footer .contenedor {
+        display: flex;
+        justify-content: center;
+    }
 
 }
