@@ -1,16 +1,28 @@
 /* ........estilo section nosotros......... */
 
-#nosotros .contenedor{
+#nosotros .contenedor-nosotros{
 
-    text-align: center;
-    padding: 200px 12px;
+    text-align: left;
+    padding: 15% 0% 5% 10%;
+    display: flex;
+    justify-content: space-between;
 
  }
 
  #nosotros h2{
-    font-size: 400%;
+    font-size: 300%;
  }
 
  #nosotros p{
     font-size: 2em;
+ }
+
+ #nosotros .contenedor-imagen{
+   display: flex;
+   align-items: flex-end;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("../images/serviciotecnico.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
  }

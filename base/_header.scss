@@ -1,7 +1,7 @@
 /* ........estilo header.......... */
 
 header {
-    background-color: beige;
+    background-color: rgb(106, 109, 106);
 }
 
 header .logo {
@@ -18,13 +18,14 @@ header .contenedor-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 0.5%;
 
 }
 
 header nav {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-bottom: 1%;
     text-align: center;
 }
 
@@ -44,4 +45,6 @@ header a:hover {
 h1 {
     color: rgb(250, 250, 250);
     font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
 }
