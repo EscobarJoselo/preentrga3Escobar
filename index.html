@@ -38,6 +38,7 @@
 <body>
 
     <!-- Inicio Header-->
+    
     <header>
 
         <!--imagen de logo y menu navegable-->
@@ -71,20 +72,46 @@
             </nav>
         </div>
         <!--fin menu nav-->
+
     </header>
+
     <!--Fin Header-->
 
     <main>
+
         <!--Nosotros-->
+
         <section id="nosotros">
+
             <div class="contenedor-nosotros">
-                <div class="texto">
-                    <h2>Quienes Somos</h2>
+                <div class="row mt-1 mb-5 justify-content-center">
+                <div class="col-sm-8 pt-5 pb-5">
+
+                    <h2 class="text-center mt-2">Bienvenidos/as</h2>
+
+                    <h3 class="mt-5">
+                        Quienes Somos..
+                    </h3>
                     <p>Somos un equipo con mas de 5 años de experiencia en el rubro de servicio técnico, comprometidos
                         con ofrecer calidad y garantía a nuestros clientes.
                     </p>
+                    <img src="/images/quienessomos.jpeg" class="img-fluid mx-auto d-block mt-5 mb-5" alt="equipo de servicio técnico">
+
+                    <h3 class="mt-5">
+                        Nuestra Misión
+                    </h3>
+                    <p>No queremos que sufras al traer tu equipo , queremos que sea una experiencia lo más positiva posible, y proveerte una resolución acorde al servicio que necesitas, nuestro equipo esta capacitado para ofrecerte el mejor desenlace para lo que necesites reparar, nos mantenemos en continua mejora, buscando ser referentes en nuestro sector.
+                    </p>
+                    <img src="/images/reunion.jpg" class="img-fluid mx-auto d-block mt-5 mb-5" alt="equipo de servicio técnico">
+
+                    <h3 class="mt-5">
+                        Valores Corporativos
+                    </h3>
+                    <p>Sabemos que un valor resulta tan útil y beneficioso para nosotros como para el resto de nuestros semejantes, por ello en nuestra empresa abogamos por la transparencia, la sinceridad, y el buen trato hacia nuestros clientes.
+                    <img src="/images/serviciotecnico.jpg" class="img-fluid mx-auto d-block mt-5 mb-5" alt="equipo de servicio técnico">
                 </div>
-              <div class="contenedor-imagen"></div>  
+                </div>
+            </div>
         </section>
 
         <!--Section informacion de sitio-->
@@ -92,10 +119,14 @@
         <section id="cuerpo-principal">
             <div>
                 <h1>Profesionales a tu servicio<br> traenos tu equipo!!!</h1>
+                <form action="#contacto">
                 <button class="mine">Contactanos</button>
+                </form>
             </div>
         </section>
+
         <!--Servicios-->
+
         <section id="servicios">
             <div class="contenedor">
                 <h2>Servicios</h2>
@@ -104,7 +135,7 @@
                         <h3>Instalaciones (Software/Hardware)</h3>
                         <p>Ponemos tu equipo a punto para que puedas usarlo.</p>
                         <form action="#contacto">
-                        <button class="mine">+ Info</button>
+                            <button class="mine">+ Info</button>
                         </form>
                     </div>
                     <div class="secciones">
@@ -112,7 +143,7 @@
                         <p>Armamos tu pagina web para que te conectes con el mundo....
                         </p>
                         <form action="#contacto">
-                        <button class="mine">+ Info</button>
+                            <button class="mine">+ Info</button>
                         </form>
                     </div>
                     <div class="secciones">
@@ -125,54 +156,115 @@
                 </div>
             </div>
         </section>
+
         <!--Blog-->
+
         <section id="blog">
-            <div class="contenedor-blog">
-                <h2>Nuestro Blog!!!</h2>
-            </div>
-            <div class="contenedor">
+            <div class="container-fluid">
+                <div>
+                <p class="text-center text-white h3 pt-5">Nuestro Blog!!!</p>
+                </div>
+            <div class="row text-white">
                 <ul>
-                    <p><strong> Pronto todos nuestros links estarán funcionando....</strong></p>
+                    <p class="text-secondary text-center">Pronto todos nuestros links estarán funcionando....</p>
                     <a href="#">
-                        <li>Noticias Semanales</li>
+                        <li class="fw-light text-start">Noticias Semanales</li>
                     </a>
                     <a href="#">
-                        <li>Tutoriales</li>
+                        <li class="fw-light text text-center">Tutoriales</li>
                     </a>
                     <a href="#">
-                        <li>Tips y consejos</li>
+                        <li class="fw-light text-end">Tips y consejos</li>
                     </a>
                     <a href="#">
-                        <li>Paso a paso</li>
+                        <li class="fw-light text-start">Paso a paso</li>
                     </a>
 
                 </ul>
             </div>
+        </div>
         </section>
-        <!--Contacto-->
-        <section id="contacto">
-            <h2>Esperamos tu contacto!!!</h2>
-            <p>"Nuestra web aún está en desarrollo, pronto todos nuestros links estarán funcionando..."</p>
-            <div class="contenedor-pie">
-                <a href="#"><button class="mine">Facebook</button></a>
-                <a href="#"><button class="mine">Instagram</button></a>
-                <a href="#"><button class="mine">Whatsapp</button></a>
 
+        <!--Contacto-->
+
+        <section id="contacto">
+            <div class="container">
+            <h3 class="pt-5 text-white">Esperamos tu consulta...</h3>
+            <p class="text-white">Nuestro personal se pondrá en contacto con vos...</p>
+          
+                <form class="row g-3 mt-3 pb-5 ">
+
+                    <label for="nombreInput" class="form-label text-white">Tu Nombre</label>
+                    <div class="col-6">
+                        <input type="email" class="form-control" id="nombreInput" placeholder="Escribe tu Nombre aquí">
+                    </div>
+                
+                    <label for="emailInput" class="form-label text-white">Email</label>
+                    <div class="col-6">
+                        <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu E-mail aquí">
+                    </div>
+                    <label for="messageInput" class="form-label text-white">Mensaje</label>
+                    <div class="col-6">
+                        <input type="text" class="form-control" id="messageInput" placeholder="Escribe tu mensaje aquí...">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-secondary">Enviar</button>
+                    </div>
+                   
+                </form>
             </div>
         </section>
     </main>
-    <!--Footer con copyright-->
-    <footer>
-        <div class="iconos">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-        <div class="contenedor">
-            <p>&copy;Mr0ffice 2022</p>
-        </div>
 
+    <!--Footer con copyright-->
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row pb-1 p-5 bg-dark text-white">
+                <div class="col-xs-10 col-md-6 col-lg-3">
+                    <p class="h3">Mr0ffice</p>
+                    <p class="text-secondary">Malargüe, Mendoza</p>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">Quienes Somos</p>
+                    <div class="mb-3">
+                        <a class="text-secondary text-decoration-none" href="#nosotros">Conocenos</a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="text-secondary text-decoration-none" href="#servicios">Servicios</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">Links</p>
+                    <div class="mb-3">
+                        <a class="text-secondary text-decoration-none" href="https://zyro.com/es/herramientas/generador-de-terminos-y-condiciones#results">Terms & Conditions</a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="text-secondary text-decoration-none" href="#">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">Contacto</p>
+                    <a href="#Contacto"></a>
+                    <div class="mb-3">
+                        <a class="text-secondary text-decoration-none" href="#">Instagram</a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+                    </div>
+                    
+                </div>
+
+                <div class="col-xs-12 pt-4">
+                    <p class="text-center">&copy;Mr0ffice 2022</p>
+                </div>
+
+            </div>
+
+        </div>
+       
     </footer>
+
     <!------Cdn/Boostrap------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

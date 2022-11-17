@@ -31,7 +31,7 @@
         margin-left: 20px;
     }
 
-    #nosotros .texto {
+    /*#nosotros .texto {
         width: 50%;
         max-width: 600px;
         text-align: left;
@@ -39,7 +39,7 @@
         display: flex;
         justify-content: start;
         flex-direction: column;
-    }
+    }*/
 
     #img-contenedor {
         background-image: url(/images/rh.jpeg);
@@ -93,14 +93,13 @@
 
     #blog p {
         color: rgb(216, 162, 134);
-        font-size: 2em;
     }
 
     #blog a {
         display: flex;
         justify-content: center;
         text-decoration: none;
-        color: azure;
+        color: rgb(241, 255, 255);
 
     }
 
