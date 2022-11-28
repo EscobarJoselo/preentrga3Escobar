@@ -198,5 +198,13 @@
     "yallist": "^4.0.0",
     "yargs": "^17.6.2"
   },
-  "description": ""
+  "description": "<h1 align=\"center\">Hi 👋, I'm Joselo</h1>\r <h3 align=\"center\">A passionate frontend developer from Argentina</h3>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EscobarJoselo/preentrga3Escobar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EscobarJoselo/preentrga3Escobar/issues"
+  },
+  "homepage": "https://github.com/EscobarJoselo/preentrga3Escobar#readme"
 }
