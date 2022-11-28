@@ -80,7 +80,7 @@
 
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)),
-            url(/images/blogg.jpeg);
+            url(../images/blogg.jpeg);
         background-size: 500px 400px;
         background-position: calc(100vw - 700px) 150px;
         color: black;
@@ -113,7 +113,7 @@
     #contacto {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)),
-            url(/images/redes.png);
+            url(../images/redes.png);
         background-size: cover;
     }
 
